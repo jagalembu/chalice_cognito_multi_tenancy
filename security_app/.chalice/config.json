@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "app_name": "security_app",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "APPUSERPOOLID": "us-west-2_g0lu0d8zf",
+        "APPCLIENTID": "u95hvhomlgt9d7dpu8jn8jioh",
+        "COGNITOJWKSURL": "https://cognito-idp.us-west-2.amazonaws.com/us-west-2_g0lu0d8zf/.well-known/jwks.json",
+        "USER_TABLE_NAME": "user-sec-d6bcf710-c2c2-45d6-8315-e5cee73b3e68",
+        "TENANT_TABLE_NAME": "tenant-sec-f78a9a7d-458a-4b5e-892f-3d2cfd678519",
+        "USERTENANTS_TABLE_NAME": "usertenants-sec-ef20184c-747e-4926-8d01-9690649dec6d"
+      }
+    }
+  }
+}

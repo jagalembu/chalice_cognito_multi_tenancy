@@ -1,0 +1,30 @@
+Type: AWS::Cognito::UserPool
+Properties:
+  AdminCreateUserConfig: 
+    AdminCreateUserConfig
+  AliasAttributes: 
+    - String
+  AutoVerifiedAttributes: 
+    - String
+  DeviceConfiguration: 
+    DeviceConfiguration
+  EmailConfiguration: 
+    EmailConfiguration
+  EmailVerificationMessage: String
+  EmailVerificationSubject: String
+  LambdaConfig: 
+    LambdaConfig
+  MfaConfiguration: String
+  Policies: 
+    Policies
+  Schema: 
+    - SchemaAttribute
+  SmsAuthenticationMessage: String
+  SmsConfiguration: 
+    SmsConfiguration
+  SmsVerificationMessage: String
+  UsernameAttributes: 
+    - String
+  UserPoolName: String
+  UserPoolTags: 
+    String: String
